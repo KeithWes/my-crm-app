@@ -1,0 +1,78 @@
+/* Grundlegende Stile für den gesamten Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Helles Grau als Hintergrundfarbe */
+    margin: 0;
+    padding: 0;
+}
+
+/* Stil für die Hauptüberschrift */
+h1 {
+    color: #333; /* Dunkles Grau für die Überschrift */
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* Weißer Hintergrund für die Überschrift */
+    margin: 0;
+    border-bottom: 2px solid #ddd; /* Dünne Linie unter der Überschrift */
+}
+
+/* Stil für die zweite Überschrift */
+h2 {
+    color: #666; /* Mittelgrau für Unterüberschrift */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Stil für die Liste der Checklisten-Elemente */
+ul {
+    list-style-type: none; /* Entfernt die Aufzählungszeichen */
+    padding: 0;
+    max-width: 800px; /* Maximale Breite für die Liste */
+    margin: 0 auto; /* Zentriert die Liste horizontal */
+}
+
+/* Stil für die einzelnen Listenelemente */
+li {
+    background-color: #fff; /* Weißer Hintergrund für Listenelemente */
+    border: 1px solid #ddd; /* Graue Umrandung */
+    border-radius: 5px; /* Abgerundete Ecken */
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex; /* Flexbox für Layout */
+    justify-content: space-between; /* Verteilt Inhalt */
+    align-items: center; /* Zentriert Inhalt vertikal */
+}
+
+/* Stil für das Textfeld zum Hinzufügen neuer Elemente */
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    flex: 1; /* Textfeld füllt den verfügbaren Platz */
+    margin-right: 10px; /* Abstand zwischen Textfeld und Button */
+}
+
+/* Stil für den Hinzufügen-Button */
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blau für den Button-Hintergrund */
+    color: #fff; /* Weißer Text */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer; /* Zeigt Handzeiger an */
+}
+
+/* Stil für den Button im Hover-Zustand */
+button:hover {
+    background-color: #0056b3; /* Dunkleres Blau beim Hover */
+}
+
+/* Stil für das Fehlermeldungselement */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
